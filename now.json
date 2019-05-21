@@ -5,9 +5,8 @@
   "builds": [
         { "src": "package.json", 
           "use": "@now/static-build", 
-          "config": { "distDir": "build" } 
+          "config": { "distDir": "build" } ,
+          "alias": ["marcosbarbosa.dev", "my-alias"]
         }
-    ],
-  "alias": ["marcosbarbosa.dev", "my-alias"]
-  
+    ]
 }
