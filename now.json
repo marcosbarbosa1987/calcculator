@@ -1,6 +1,6 @@
 
 {
-  "name": "julio-site",
+  "name": "calcculator",
   "version": 2,
   "builds": [{ "src": "*.html", "use": "@now/static" }]
 }
