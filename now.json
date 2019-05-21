@@ -7,6 +7,7 @@
           "use": "@now/static-build", 
           "config": { "distDir": "build" } 
         }
-    ]
+    ],
+  "alias": ["marcosbarbosa.dev", "my-alias"]
   
 }
