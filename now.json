@@ -2,5 +2,5 @@
 {
   "name": "calcculator",
   "version": 2,
-  "builds": [{ "src": "*.html", "use": "@now/static" }]
+  "builds": [{ "src": "./public/index.html", "use": "@now/static" }]
 }
