@@ -2,11 +2,11 @@
 {
   "name": "calcculator",
   "version": 2,
+  "alias": ["marcosbarbosa.dev"],
   "builds": [
         { "src": "package.json", 
           "use": "@now/static-build", 
-          "config": { "distDir": "build" } ,
-          "alias": ["marcosbarbosa.dev"]
+          "config": { "distDir": "build" }
         }
     ]
 }
