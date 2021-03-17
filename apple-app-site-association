@@ -1,0 +1,26 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "1558766872.dev.marcosbarbosa.CoordinatorTest" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               },
+               {
+                  "/": "/app/*",
+                  "comment": "Matches any URL whose path starts with /buy/"
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "1558766872.dev.marcosbarbosa.CoordinatorTest" ]
+   },
+    "appclips": {
+        "apps": ["1558766872.dev.marcosbarbosa.CoordinatorTest.Clip"]
+    }
+}
