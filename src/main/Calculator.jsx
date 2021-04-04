@@ -100,7 +100,7 @@ export default class Calculator extends Component {
                 <Button label="+" click = {this.setOperation} operation></Button>
                 <Button label="0" click = {this.addDigit} double></Button>
                 <Button label="." click = {this.addDigit}></Button>
-                <Button label="=" click = {this.setOperation} operation></Button>
+                <Button label="==" click = {this.setOperation} operation></Button>
             </div>
         )
     }
